@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+  margin: 50px auto 0;
+  font-family: 'Fleur De Leah', cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #11999e;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.coding-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.swimming-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+
+hr {
+  border-color: #d3d3d3;
+  border-style: dotted;
+  border-width: thick 0 0;
+  width: 3%;
+}
+
+.profile {
+  width: 30%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 100px auto;
+}
+
+.contact-me-paragraph {
+  line-height: 2;
+  margin: 35px auto;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin: 0 20px;
+  color: #11999e;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-link:hover {
+  color: #eaf6f6;
+}
+
+.copyright {
+  color: white;
+  margin: 30px auto 0;
+  font-size: 0.75rem;
+}
+
+
+
+.btn {
+  background: #66bfbf;
+  background-image: linear-gradient(to bottom, #66bfbf, #11999e);
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #11999e;
+  background-image: linear-gradient(to bottom, #11999e, #66bfbf);
+  text-decoration: none;
+}
